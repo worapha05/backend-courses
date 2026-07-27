@@ -1,0 +1,11 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+.rabbitmq-data/
+.kafka-data/
+dist/
+

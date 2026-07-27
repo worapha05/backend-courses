@@ -1,0 +1,10 @@
+{
+  "name": "messaging-queue-bootcamp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "kafkajs": "^2.2.4"
+  }
+}
