@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}MVT Blog{% endblock %}</title>
+    <style>
+      body {
+        font-family: Georgia, serif;
+        max-width: 720px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      a {
+        color: #0b5;
+      }
+      .meta {
+        color: #666;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <strong>Django MVT Blog</strong> — <a href="{% url 'blog:list' %}">FBV</a> |
+      <a href="{% url 'blog:list-cbv' %}">CBV</a>
+    </header>
+    <main>{% block content %}{% endblock %}</main>
+  </body>
+</html>

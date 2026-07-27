@@ -1,0 +1,4 @@
+code,customer_email,customer_name,status,total,sku,qty,unit_price
+ORD-2001,bob@example.com,Bob,paid,150.00,SKU-X,1,150.00
+ORD-2002,carol@example.com,Carol,draft,80.00,SKU-Y,2,40.00
+ORD-2003,bob@example.com,Bob,shipped,300.00,SKU-Z,3,100.00

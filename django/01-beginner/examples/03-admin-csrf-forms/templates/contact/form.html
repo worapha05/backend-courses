@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>ติดต่อเรา</h1>
+    {% if messages %}
+      {% for m in messages %}
+        <p>{{ m }}</p>
+      {% endfor %}
+    {% endif %}
+    {# {% csrf_token %} จำเป็นสำหรับ POST — Django ตรวจผ่าน CsrfViewMiddleware #}
+    <form method="post" novalidate>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">ส่งข้อความ</button>
+    </form>
+    <p><a href="/admin/">Admin</a> — ปรับ status ของ Inquiry ได้</p>
+  </body>
+</html>

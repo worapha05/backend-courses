@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>สมาชิก</h1>
+<ul>
+  {% for m in members %}
+  <li>{{ m.name }} ({{ m.email }}) — ยืมค้าง {{ m.active_loans }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

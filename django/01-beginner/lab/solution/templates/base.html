@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Library{% endblock %}</title>
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'library:book-list' %}">หนังสือ</a> |
+      <a href="{% url 'library:loan-create' %}">ยืม</a> |
+      <a href="{% url 'library:member-list' %}">สมาชิก</a> |
+      <a href="/admin/">Admin</a>
+    </nav>
+    {% if messages %}
+      {% for m in messages %}
+        <p>{{ m }}</p>
+      {% endfor %}
+    {% endif %}
+    {% block content %}{% endblock %}
+  </body>
+</html>

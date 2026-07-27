@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>หนังสือว่าง</h1>
+<ul>
+  {% for b in books %}
+  <li>
+    <a href="{% url 'library:book-detail' b.pk %}">{{ b.title }}</a> — เหลือ {{ b.copies_available
+    }}
+  </li>
+  {% empty %}
+  <li>ไม่มีหนังสือว่าง</li>
+  {% endfor %}
+</ul>
+{% endblock %}

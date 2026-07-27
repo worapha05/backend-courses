@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <title>ORM Playground</title>
+  </head>
+  <body>
+    <h1>Django ORM — filter / exclude / annotate</h1>
+
+    <h2>filter(price&lt;300).exclude(in_stock=False)</h2>
+    <ul>
+      {% for b in affordable %}
+      <li>{{ b.title }} — {{ b.price }}</li>
+      {% empty %}
+      <li>—</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Q(author__country=TH) | Q(price≤150)</h2>
+    <ul>
+      {% for b in thai_or_cheap %}
+      <li>{{ b.title }} ({{ b.author.name }})</li>
+      {% empty %}
+      <li>—</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Author annotate(Count, Avg)</h2>
+    <ul>
+      {% for a in authors_stats %}
+      <li>{{ a.name }}: {{ a.book_count }} books, avg={{ a.avg_price }}</li>
+      {% endfor %}
+    </ul>
+    <p>รัน <code>python manage.py seed_books</code> ก่อนถ้ายังว่าง</p>
+  </body>
+</html>
