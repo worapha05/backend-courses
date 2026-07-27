@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Member {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  fullName  String
+  loans     Loan[]
+  createdAt DateTime @default(now())
+}
+
+model Title {
+  id              String   @id @default(cuid())
+  isbn            String   @unique
+  name            String
+  copies          Int
+  availableCopies Int
+  loans           Loan[]
+  createdAt       DateTime @default(now())
+}
+
+model Loan {
+  id         String    @id @default(cuid())
+  memberId   String
+  titleId    String
+  status     String
+  borrowedAt DateTime  @default(now())
+  returnedAt DateTime?
+  member     Member    @relation(fields: [memberId], references: [id])
+  title      Title     @relation(fields: [titleId], references: [id])
+}

@@ -1,0 +1,28 @@
+// Fast learning mode: SQLite (default for this example)
+// Enterprise mode: change provider to "postgresql"
+// and set DATABASE_URL from .env.example
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Author {
+  id        String   @id @default(cuid())
+  name      String
+  books     Book[]
+  createdAt DateTime @default(now())
+}
+
+model Book {
+  id        String   @id @default(cuid())
+  title     String
+  pages     Int
+  authorId  String
+  author    Author   @relation(fields: [authorId], references: [id])
+  createdAt DateTime @default(now())
+}
