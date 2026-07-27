@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+uploads/*
+!uploads/.gitkeep
+*.db
+*.db-journal
+coverage/
+.DS_Store
+**/generated/
+__pycache__/
+*.pyc
+.venv/
+
