@@ -1,0 +1,32 @@
+# Maven / Gradle
+**/target/
+**/build/
+**/.gradle/
+**/out/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.class
+*.jar
+*.war
+*.log
+
+# Runtime artifacts
+uploads/
+exports/
+*.xlsx
+*.xls
+*.csv
+
+# Env / secrets
+.env
+*.pem
+application-local.yml
+application-secret.yml
+
+# OS
+Thumbs.db
+
