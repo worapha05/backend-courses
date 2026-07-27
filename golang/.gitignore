@@ -1,0 +1,19 @@
+# Runtime artifacts
+uploads/
+exports/
+*.csv
+*.xlsx
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.exe
+*.test
+
+# Go build outputs
+go-build/
+*.out
+*.test
+*.prof
+
