@@ -1,3 +1,7 @@
+📍 **Nav:** [`🏠 Dev Learning Courses Hub`](https://github.com/worapha05/dev-learning-courses-hub/blob/main/README.md) | [`📂 Backend Courses Index`](../README.md) | 📝 [`Prompt File`](https://github.com/worapha05/ai-learning-prompts-hub/blob/main/course-generation/backend-courses/c-sharp-net-core-prompt.md)
+
+---
+
 # C# & .NET Core Bootcamp — Zero to Expert
 
 bootcamp เรียนรู้ **C# และ ASP.NET Core Web API** แบบครบวงจรสำหรับ Modern Full-stack Developer ที่มุ่งสู่
