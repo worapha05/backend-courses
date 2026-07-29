@@ -1,4 +1,4 @@
-📍 **Nav:** [`🏠 Dev Learning Courses Hub`](https://github.com/worapha05/dev-learning-courses-hub/blob/main/README.md) | [`📂 Backend Courses Index`](../README.md) | 📝 [`Prompt File`](https://github.com/worapha05/ai-learning-prompts-hub/blob/main/course-generation/backend-courses/fastify-prompt.md)
+📍 **Nav:** [`🏠 Dev Learning Courses Hub`](https://github.com/worapha05/dev-learning-courses-hub/blob/main/README.md) | [`📂 Backend Courses Index`](../README.md) | [`📝 Prompt File`](https://github.com/worapha05/ai-learning-prompts-hub/blob/main/course-generation/backend-courses/fastify-prompt.md)
 
 ---
 
@@ -24,11 +24,11 @@ bootcamp เรียนรู้ **Fastify** แบบครบวงจร
 
 ## โครงสร้างหลักสูตร
 
-| Level            | folder                             | หัวข้อหลัก                                                  | เวลาแนะนำ   |
-| ---------------- | ---------------------------------- | ----------------------------------------------------------- | ----------- |
-| 1 — Beginner     | [`01-beginner/`](./01-beginner/)   | Express vs Fastify, Routing/Lifecycle, Plugin Encapsulation | 1–2 สัปดาห์ |
+| Level            | folder                                   | หัวข้อหลัก                                                  | เวลาแนะนำ   |
+| ---------------- | ---------------------------------------- | ----------------------------------------------------------- | ----------- |
+| 1 — Beginner     | [`01-beginner/`](./01-beginner/)         | Express vs Fastify, Routing/Lifecycle, Plugin Encapsulation | 1–2 สัปดาห์ |
 | 2 — Intermediate | [`02-intermediate/`](./02-intermediate/) | JSON Schema/Ajv, Lifecycle Hooks, DB plugins, Pino          | 2–3 สัปดาห์ |
-| 3 — Expert       | [`03-expert/`](./03-expert/)       | Hexagonal plugins, Performance tuning, Security & Ops       | 2–4 สัปดาห์ |
+| 3 — Expert       | [`03-expert/`](./03-expert/)             | Hexagonal plugins, Performance tuning, Security & Ops       | 2–4 สัปดาห์ |
 
 แต่ละระดับประกอบด้วย:
 

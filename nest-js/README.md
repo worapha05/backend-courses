@@ -1,4 +1,4 @@
-📍 **Nav:** [`🏠 Dev Learning Courses Hub`](https://github.com/worapha05/dev-learning-courses-hub/blob/main/README.md) | [`📂 Backend Courses Index`](../README.md) | 📝 [`Prompt File`](https://github.com/worapha05/ai-learning-prompts-hub/blob/main/course-generation/backend-courses/nest-js-prompt.md)
+📍 **Nav:** [`🏠 Dev Learning Courses Hub`](https://github.com/worapha05/dev-learning-courses-hub/blob/main/README.md) | [`📂 Backend Courses Index`](../README.md) | [`📝 Prompt File`](https://github.com/worapha05/ai-learning-prompts-hub/blob/main/course-generation/backend-courses/nest-js-prompt.md)
 
 ---
 
@@ -8,11 +8,11 @@ NestJS backend bootcamp ครอบคลุมตั้งแต่พื้�
 
 ## โครงสร้าง
 
-| Level | Topics |
-|---|---|
-| `01-beginner/` | Modular Architecture, Dependency Injection, HTTP Routing |
-| `02-intermediate/` | Validation Pipe, Prisma ORM, Exception Filters, Interceptors, Custom Pipes |
-| `03-expert/` | Guards & RBAC, Security Production (Helmet, Rate Limiting, Health Checks), Testing (Unit & E2E) |
+| Level              | Topics                                                                                          |
+| ------------------ | ----------------------------------------------------------------------------------------------- |
+| `01-beginner/`     | Modular Architecture, Dependency Injection, HTTP Routing                                        |
+| `02-intermediate/` | Validation Pipe, Prisma ORM, Exception Filters, Interceptors, Custom Pipes                      |
+| `03-expert/`       | Guards & RBAC, Security Production (Helmet, Rate Limiting, Health Checks), Testing (Unit & E2E) |
 
 ## 03-expert — เนื้อหา
 
