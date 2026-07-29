@@ -1,3 +1,7 @@
+📍 **Nav:** [`🏠 Dev Learning Courses Hub`](https://github.com/worapha05/dev-learning-courses-hub/blob/main/README.md) | [`📂 Backend Courses Index`](../README.md) | 📝 [`Prompt File`](https://github.com/worapha05/ai-learning-prompts-hub/blob/main/course-generation/backend-courses/message-queue-prompt.md)
+
+---
+
 # Messaging Queue Bootcamp — Zero to Expert
 
 bootcamp เรียนรู้ **Messaging Queues และ Event Streaming** แบบครบวงจร
